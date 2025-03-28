@@ -51,7 +51,7 @@ function area(shape: Shape) {
         case "square" :
             return shape.x * shape.x
         default :
-            throw new Error('Not Possibe')
+            throw new Error('Not Possible')
     }
 }
 
